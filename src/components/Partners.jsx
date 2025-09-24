@@ -227,7 +227,7 @@ const Partners = () => {
           <div className="text-center mb-12">
             <button
               onClick={toggleShowAll}
-              className="cursor-pointer bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300"
+              className="cursor-pointer bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300"
               aria-expanded={showAll}
               aria-controls="partners-grid"
               role="button"
