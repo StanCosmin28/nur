@@ -223,7 +223,7 @@ const Team = () => {
       </div>
 
       {/* Keyframes for animations */}
-      <style jsx>{`
+      <style jsx="true">{`
         @keyframes stripeMove {
           0% {
             transform: translateX(-100%) rotate(-15deg);

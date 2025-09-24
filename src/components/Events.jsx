@@ -325,7 +325,7 @@ const Events = () => {
         </div>
 
         {/* Keyframes and Styling */}
-        <style jsx>{`
+        <style jsx="true">{`
           @keyframes float {
             0%,
             100% {

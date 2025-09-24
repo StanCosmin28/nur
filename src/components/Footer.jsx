@@ -1,3 +1,5 @@
+import SteamAnimation from "./SteamAnimation";
+
 const Footer = () => {
   return (
     <footer
@@ -33,12 +35,13 @@ const Footer = () => {
             id="footer-brand"
           >
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-orange-200/50">
-                <span className="text-white font-bold text-xl">N</span>
+              <div className="w-24 h-24 bg-orange-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-orange-200/50">
+                {/* <span className="text-white font-bold text-xl">N</span> */}
+                <SteamAnimation customStyles={"p-2"} />
               </div>
-              <span className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-600">
+              {/* <span className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-600">
                 NUR
-              </span>
+              </span> */}
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed max-w-md text-sm sm:text-base">
               Now You Run - Iasi's premier running community. Join us every

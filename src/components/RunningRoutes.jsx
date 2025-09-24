@@ -156,7 +156,7 @@ const RunningRoutes = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style jsx="true">{`
         .scrollbar-hide {
           -ms-overflow-style: none;
           scrollbar-width: none;

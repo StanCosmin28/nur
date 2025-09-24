@@ -216,7 +216,7 @@ const WeeklyRuns = () => {
         </div>
 
         {/* Keyframes and Styling */}
-        <style jsx>{`
+        <style jsx="true">{`
           @keyframes stripeMove {
             0% {
               transform: translateX(-100%) rotate(-15deg);

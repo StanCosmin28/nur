@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import data from "../Model/data";
+import SteamAnimation from "./SteamAnimation";
 
 const { logov2 } = { ...data };
 const Header = () => {
@@ -45,7 +46,7 @@ const Header = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style jsx="true">{`
         @keyframes stripe-move {
           0% {
             transform: translateX(-100%);
@@ -58,18 +59,8 @@ const Header = () => {
 
       <nav className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          {/* Logo with interactive elements */}
           <div className="flex items-center space-x-3 group">
-            {/* <div className="relative"> */}
             <img className="h-10" src={logov2} alt="" />
-            {/* <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center shadow-lg border-2 border-white group-hover:scale-110 transition-transform duration-300"> */}
-            {/* <span className="text-white font-black text-lg">🏃</span> */}
-            {/* </div> */}
-            {/* <div className="absolute -top-1 -right-1 w-3 h-3 bg-orange-500 rounded-full animate-pulse border border-white"></div> */}
-            {/* <p className="text-[10px] text-black font-bold -mt-1 tracking-wider">
-                NOW YOU RUN
-              </p> */}
-            {/* </div> */}
           </div>
 
           {/* Interactive navigation */}
