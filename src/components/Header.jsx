@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import data from "../Model/data";
 import SteamAnimation from "./SteamAnimation";
+import SteamAnimationV2 from "./SteamAnimationV2";
 
 const { logov2 } = { ...data };
 const Header = () => {
@@ -60,7 +61,8 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3 group">
-            <img className="h-10" src={logov2} alt="" />
+            {/* <img className="h-10" src={logov2} alt="" /> */}
+            <SteamAnimationV2 customStyles={"h-12"} />
           </div>
 
           {/* Interactive navigation */}

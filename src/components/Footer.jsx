@@ -1,4 +1,4 @@
-import SteamAnimation from "./SteamAnimation";
+import SteamAnimationV2 from "./SteamAnimationV2";
 
 const Footer = () => {
   return (
@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-24 h-24 bg-orange-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-orange-200/50">
                 {/* <span className="text-white font-bold text-xl">N</span> */}
-                <SteamAnimation customStyles={"p-2"} />
+                <SteamAnimationV2 customStyles={"h-18"} />
               </div>
               {/* <span className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-600">
                 NUR
