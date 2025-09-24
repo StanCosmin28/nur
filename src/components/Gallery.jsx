@@ -1,26 +1,29 @@
 import { useState, useEffect } from "react";
+import data from "../Model/data";
+
+const { img1, img2, img3, img4, img5, img6, img7, img8 } = { ...data.gallery };
 
 const galleryImages = [
   {
     id: 1,
-    src: "/group-of-runners-in-park.jpg",
+    src: img1,
     alt: "Group run in Copou Park",
   },
   {
     id: 2,
-    src: "/runners-finishing-at-coffee-shop.jpg",
+    src: img2,
     alt: "Finishing at coffee shop",
   },
-  { id: 3, src: "/running-team-celebration.jpg", alt: "Team celebration" },
-  { id: 4, src: "/morning-run-sunrise.jpg", alt: "Morning run at sunrise" },
+  { id: 3, src: img3, alt: "Team celebration" },
+  { id: 4, src: img4, alt: "Morning run at sunrise" },
   {
     id: 5,
-    src: "/runners-stretching-before-run.jpg",
+    src: img5,
     alt: "Pre-run stretching",
   },
-  { id: 6, src: "/running-through-city-center.jpg", alt: "City center run" },
-  { id: 7, src: "/post-run-coffee-group.jpg", alt: "Post-run coffee" },
-  { id: 8, src: "/running-event-medal-ceremony.jpg", alt: "Medal ceremony" },
+  { id: 6, src: img6, alt: "City center run" },
+  { id: 7, src: img7, alt: "Post-run coffee" },
+  { id: 8, src: img8, alt: "Medal ceremony" },
 ];
 
 const Gallery = () => {
