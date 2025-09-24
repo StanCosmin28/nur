@@ -5,6 +5,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     --font-sans: var(--font-geist-sans);

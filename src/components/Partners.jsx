@@ -11,7 +11,8 @@ const Partners = () => {
       name: "Tucano Coffee",
       type: "Coffee Partner",
       discount: "10% off",
-      image: "/modern-coffee-shop-logo.jpg",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/044/448/707/non_2x/collection-of-simple-coffee-cup-logo-designs-isolated-free-png.png",
       description: "Premium coffee and pastries for our 4km route finishers.",
       location: "Copou Area",
       address: "Strada Copou 12, Iași 700056, Romania",
@@ -28,7 +29,8 @@ const Partners = () => {
       name: "Beans & Dots",
       type: "Coffee Partner",
       discount: "15% off",
-      image: "/artisan-coffee-shop-logo.jpg",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/044/448/707/non_2x/collection-of-simple-coffee-cup-logo-designs-isolated-free-png.png",
       description: "Artisan coffee and healthy breakfast options.",
       location: "City Center",
       address: "Strada Lăpușneanu 25, Iași 700045, Romania",
@@ -45,7 +47,8 @@ const Partners = () => {
       name: "SportZone Iasi",
       type: "Equipment Partner",
       discount: "20% off",
-      image: "/sports-equipment-store-logo.jpg",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/044/448/707/non_2x/collection-of-simple-coffee-cup-logo-designs-isolated-free-png.png",
       description: "Running gear, shoes, and accessories for NUR members.",
       location: "Palas Mall",
       address: "Strada Palas 1, Iași 700051, Romania",
@@ -62,7 +65,8 @@ const Partners = () => {
       name: "FitLife Nutrition",
       type: "Nutrition Partner",
       discount: "15% off",
-      image: "/nutrition-supplement-store-logo.jpg",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/044/448/707/non_2x/collection-of-simple-coffee-cup-logo-designs-isolated-free-png.png",
       description: "Sports nutrition and recovery supplements.",
       location: "Multiple Locations",
       address: "Strada Ștefan cel Mare 10, Iași 700056, Romania",
@@ -79,7 +83,8 @@ const Partners = () => {
       name: "RunTech Store",
       type: "Technology Partner",
       discount: "25% off",
-      image: "/running-technology-store-logo.jpg",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/044/448/707/non_2x/collection-of-simple-coffee-cup-logo-designs-isolated-free-png.png",
       description: "GPS watches, fitness trackers, and running apps.",
       location: "Online & Retail",
       address: "Online Store - Shipping to Iași",
@@ -95,7 +100,8 @@ const Partners = () => {
       name: "Physio Plus",
       type: "Health Partner",
       discount: "30% off",
-      image: "/placeholder.svg?height=200&width=300",
+      image:
+        "https://static.vecteezy.com/system/resources/previews/044/448/707/non_2x/collection-of-simple-coffee-cup-logo-designs-isolated-free-png.png",
       description: "Sports physiotherapy and injury prevention services.",
       location: "Medical Center",
       address: "Bulevardul Independentei 50, Iași 700100, Romania",
@@ -156,7 +162,7 @@ const Partners = () => {
             <div
               key={partner.id}
               onClick={() => openModal(partner)}
-              className="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl cursor-pointer transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-500 animate-fade-in border border-gray-200"
+              className="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl cursor-pointer transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-500 border border-gray-200"
               style={{ animationDelay: `${index * 0.1}s` }}
               role="button"
               tabIndex={0}
@@ -527,37 +533,6 @@ const Partners = () => {
           </div>
         </div>
       )}
-
-      {/* Keyframes and Scrollbar Styling */}
-      <style jsx>{`
-        @keyframes fade-in {
-          0% {
-            opacity: 0;
-            transform: translateY(20px) scale(0.95);
-          }
-          100% {
-            opacity: 1;
-            transform: translateY(0) scale(1);
-          }
-        }
-        // .animate-fade-in {
-        //   animation: fade-in 0.6s ease-out forwards;
-        // }
-        .scrollbar-styled::-webkit-scrollbar {
-          width: 8px;
-        }
-        .scrollbar-styled::-webkit-scrollbar-track {
-          background: #f1f1f1;
-          border-radius: 4px;
-        }
-        .scrollbar-styled::-webkit-scrollbar-thumb {
-          background: #f97316;
-          border-radius: 4px;
-        }
-        .scrollbar-styled::-webkit-scrollbar-thumb:hover {
-          background: #ea580c;
-        }
-      `}</style>
     </section>
   );
 };

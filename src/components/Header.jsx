@@ -1,7 +1,7 @@
-"use client";
-
 import { useState, useEffect } from "react";
+import data from "../Model/data";
 
+const { logov2 } = { ...data };
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -61,7 +61,7 @@ const Header = () => {
           {/* Logo with interactive elements */}
           <div className="flex items-center space-x-3 group">
             {/* <div className="relative"> */}
-            <img className="h-10" src="/nur_logo.png" alt="" />
+            <img className="h-10" src={logov2} alt="" />
             {/* <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center shadow-lg border-2 border-white group-hover:scale-110 transition-transform duration-300"> */}
             {/* <span className="text-white font-black text-lg">🏃</span> */}
             {/* </div> */}

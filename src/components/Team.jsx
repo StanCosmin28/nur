@@ -8,7 +8,8 @@ const Team = () => {
       id: 1,
       name: "Alex Popescu",
       role: "Head Coach & Founder",
-      image: "/athletic-male-coach-smiling.jpg",
+      image:
+        "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
       bio: "Marathon runner with 10+ years experience. Founded NUR to build Iasi's running community.",
       achievements: [
         "3x Bucharest Marathon Finisher",
@@ -20,7 +21,8 @@ const Team = () => {
       id: 2,
       name: "Maria Ionescu",
       role: "Training Coordinator",
-      image: "/female-running-coach-outdoors.jpg",
+      image:
+        "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
       bio: "Specializes in beginner training programs and injury prevention techniques.",
       achievements: [
         "Sports Science Degree",
@@ -32,7 +34,8 @@ const Team = () => {
       id: 3,
       name: "Andrei Mihai",
       role: "Route Planner",
-      image: "/male-runner-with-gps-watch.jpg",
+      image:
+        "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
       bio: "Local Iasi expert who designs our scenic and safe running routes through the city.",
       achievements: [
         "Local Route Expert",
@@ -44,7 +47,8 @@ const Team = () => {
       id: 4,
       name: "Elena Radu",
       role: "Community Manager",
-      image: "/friendly-female-community-manager.jpg",
+      image:
+        "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
       bio: "Manages our social media, events, and keeps our running family connected.",
       achievements: [
         "Social Media Expert",
@@ -52,54 +56,54 @@ const Team = () => {
         "Community Engagement",
       ],
     },
-    {
-      id: 5,
-      name: "Alex Popescu",
-      role: "Head Coach & Founder",
-      image: "/athletic-male-coach-smiling.jpg",
-      bio: "Marathon runner with 10+ years experience. Founded NUR to build Iasi's running community.",
-      achievements: [
-        "3x Bucharest Marathon Finisher",
-        "Certified Running Coach",
-        "Community Builder",
-      ],
-    },
-    {
-      id: 6,
-      name: "Maria Ionescu",
-      role: "Training Coordinator",
-      image: "/female-running-coach-outdoors.jpg",
-      bio: "Specializes in beginner training programs and injury prevention techniques.",
-      achievements: [
-        "Sports Science Degree",
-        "Beginner Program Developer",
-        "5+ Years Coaching",
-      ],
-    },
-    {
-      id: 7,
-      name: "Andrei Mihai",
-      role: "Route Planner",
-      image: "/male-runner-with-gps-watch.jpg",
-      bio: "Local Iasi expert who designs our scenic and safe running routes through the city.",
-      achievements: [
-        "Local Route Expert",
-        "Safety Coordinator",
-        "GPS Mapping Specialist",
-      ],
-    },
-    {
-      id: 8,
-      name: "Elena Radu",
-      role: "Community Manager",
-      image: "/friendly-female-community-manager.jpg",
-      bio: "Manages our social media, events, and keeps our running family connected.",
-      achievements: [
-        "Social Media Expert",
-        "Event Organizer",
-        "Community Engagement",
-      ],
-    },
+    // {
+    //   id: 5,
+    //   name: "Alex Popescu",
+    //   role: "Head Coach & Founder",
+    //   image: "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
+    //   bio: "Marathon runner with 10+ years experience. Founded NUR to build Iasi's running community.",
+    //   achievements: [
+    //     "3x Bucharest Marathon Finisher",
+    //     "Certified Running Coach",
+    //     "Community Builder",
+    //   ],
+    // },
+    // {
+    //   id: 6,
+    //   name: "Maria Ionescu",
+    //   role: "Training Coordinator",
+    //   image: "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
+    //   bio: "Specializes in beginner training programs and injury prevention techniques.",
+    //   achievements: [
+    //     "Sports Science Degree",
+    //     "Beginner Program Developer",
+    //     "5+ Years Coaching",
+    //   ],
+    // },
+    // {
+    //   id: 7,
+    //   name: "Andrei Mihai",
+    //   role: "Route Planner",
+    //   image: "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
+    //   bio: "Local Iasi expert who designs our scenic and safe running routes through the city.",
+    //   achievements: [
+    //     "Local Route Expert",
+    //     "Safety Coordinator",
+    //     "GPS Mapping Specialist",
+    //   ],
+    // },
+    // {
+    //   id: 8,
+    //   name: "Elena Radu",
+    //   role: "Community Manager",
+    //   image: "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
+    //   bio: "Manages our social media, events, and keeps our running family connected.",
+    //   achievements: [
+    //     "Social Media Expert",
+    //     "Event Organizer",
+    //     "Community Engagement",
+    //   ],
+    // },
   ];
 
   const toggleAchievements = (id) => {

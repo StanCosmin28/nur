@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
+import data from "../Model/data";
 
+const { logov1png } = { ...data };
 const Hero = () => {
   const [timeToSaturday, setTimeToSaturday] = useState("");
 
@@ -57,7 +59,7 @@ const Hero = () => {
           {/* Logo instead of NOW YOU RUN */}
           <div className="flex justify-center mb-4 sm:mb-6 sm:mt-10 xl:mt-2">
             <img
-              src="/nur_logo_v2.png"
+              src={logov1png}
               alt="NUR Logo"
               className="h-38 sm:h-50 md:h-60 lg:h-60 object-contain drop-shadow-2xl"
             />

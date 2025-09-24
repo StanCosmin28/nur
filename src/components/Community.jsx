@@ -6,7 +6,8 @@ const Community = () => {
       id: 1,
       name: "Cristina Vasile",
       role: "Beginner Runner",
-      image: "/placeholder.svg?height=100&width=100",
+      image:
+        "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
       quote:
         "I never thought I could run 4km, but NUR's supportive community helped me achieve this goal in just 2 months!",
       achievement: "First 4km completed",
@@ -15,7 +16,8 @@ const Community = () => {
       id: 2,
       name: "Mihai Georgescu",
       role: "Marathon Runner",
-      image: "/placeholder.svg?height=100&width=100",
+      image:
+        "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
       quote:
         "The energy and motivation from this group is incredible. It's not just about running, it's about friendship.",
       achievement: "3 marathons completed",
@@ -24,7 +26,8 @@ const Community = () => {
       id: 3,
       name: "Ana Popescu",
       role: "Working Mom",
-      image: "/placeholder.svg?height=100&width=100",
+      image:
+        "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
       quote:
         "Saturday mornings with NUR are my favorite time of the week. Great exercise and amazing people!",
       achievement: "Regular for 1 year",
@@ -33,7 +36,8 @@ const Community = () => {
       id: 4,
       name: "David Chen",
       role: "Student",
-      image: "/placeholder.svg?height=100&width=100",
+      image:
+        "https://i.pinimg.com/564x/57/00/c0/5700c04197ee9a4372a35ef16eb78f4e.jpg",
       quote:
         "As an international student, NUR helped me make friends and explore Iasi. Best decision ever!",
       achievement: "Community builder",

@@ -7,4 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // ✅ Corect pentru Tailwind v4
   ],
+  base: "/nur/",
 });

@@ -47,43 +47,8 @@ const JoinUs = () => {
   ];
 
   return (
-    <section id="join" className="py-20 bg-nur-gray">
+    <section id="join" className="pb-20 bg-nur-gray">
       <div className="container mx-auto px-4">
-        {/* <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-nur-black mb-8">
-            Join <span className="text-nur-orange">NUR</span>
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to start your running journey with Iasi's most welcoming
-            community? Here's how to get started.
-          </p>
-        </div> */}
-
-        {/* Steps to Join */}
-        {/* <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
-          {steps.map((step, index) => (
-            <div
-              key={step.number}
-              className="bg-nur-white rounded-2xl p-8 text-center hover-lift animate-fade-in"
-              style={{ animationDelay: `${index * 0.2}s` }}
-            >
-              <div className="w-16 h-16 bg-nur-orange rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-nur-white font-bold text-xl">
-                  {step.number}
-                </span>
-              </div>
-
-              <div className="text-4xl mb-4">{step.icon}</div>
-              <h3 className="text-xl font-bold text-nur-black mb-4">
-                {step.title}
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                {step.description}
-              </p>
-            </div>
-          ))}
-        </div>  */}
-
         {/* WhatsApp CTA */}
         <div className="bg-nur-white rounded-2xl p-8 max-w-2xl mx-auto text-center shadow-lg mb-16">
           <h3 className="text-2xl font-bold text-nur-black mb-4">
@@ -172,8 +137,7 @@ const JoinUs = () => {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="bg-nur-white rounded-2xl p-6 shadow-lg animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="bg-nur-white rounded-2xl p-6 shadow-lg"
               >
                 <h4 className="text-lg font-semibold text-nur-black mb-3">
                   {faq.question}
