@@ -1,28 +1,4 @@
 const JoinUs = () => {
-  const steps = [
-    {
-      number: "1",
-      title: "Join WhatsApp",
-      description:
-        "Click the button below to join our active WhatsApp community where we share updates, motivation, and coordinate runs.",
-      icon: "📱",
-    },
-    {
-      number: "2",
-      title: "Attend Saturday Run",
-      description:
-        "Show up at Copou Park entrance every Saturday at 9 AM. Choose between our 4km or 7km route based on your level.",
-      icon: "🏃",
-    },
-    {
-      number: "3",
-      title: "Enjoy Coffee Together",
-      description:
-        "After the run, join us at our partner coffee shops for discounted drinks and great conversations with new friends.",
-      icon: "☕",
-    },
-  ];
-
   const faqs = [
     {
       question: "Do I need to be an experienced runner?",

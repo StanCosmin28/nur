@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import data from "../Model/data";
-import SteamAnimation from "./SteamAnimation";
 import SteamAnimationV2 from "./SteamAnimationV2";
 
 const { logov2 } = { ...data };
